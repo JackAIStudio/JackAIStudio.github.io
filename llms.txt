@@ -1,0 +1,19 @@
+# JackAIStudio
+
+> 吴杰克 Jack 的开源项目。核心是 jackskill —— 一个 Agent Skill，安装后在 Agent 中输入 /jack 调用。
+
+本域名是 jackskill 项目的数据站。详细的机器可读索引在
+[jackskill/llms.txt](https://jackaistudio.github.io/jackskill/llms.txt)，
+那里有期数、逐字稿篇数、字段定义和全部可抓取文件的清单。
+
+## 入口
+
+- [数据站](https://jackaistudio.github.io/jackskill/)：跨平台自媒体数据与全部口播逐字稿的可视化页面
+- [机器可读索引](https://jackaistudio.github.io/jackskill/llms.txt)：本域名的详细索引
+- [作品数据（单文件全集）](https://jackaistudio.github.io/jackskill/data/videos.json)：JSON，含全部指标与逐字稿正文
+- [源码仓库](https://github.com/JackAIStudio/jackskill)
+
+## 安装 jackskill
+
+- 命令：`npx -y skills add JackAIStudio/jackskill -g --all`
+- 装完在 Agent 中输入 `/jack`；`/jack list` 看清单

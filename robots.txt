@@ -1,0 +1,43 @@
+# jackaistudio.github.io
+#
+# 这个文件放在域名根，只对本域名生效。它管不到 github.com ——
+# 那里的 robots.txt 由 GitHub 自己定，任何人都改不了。
+#
+# 这里没有要藏的东西。写出来只是把话说清楚：本域名下的内容欢迎抓取，
+# 包括 AI 爬虫。默认本来就是允许，显式写一遍是为了不让人猜。
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JackAIStudio</title>
+<meta name="description" content="吴杰克 Jack 的开源项目。核心是 jackskill —— 一个 Agent Skill，装完在 Agent 里输入 /jack 调用。">
+<link rel="alternate" type="text/markdown" href="llms.txt" title="机器可读索引">
+<style>
+  :root { --ink:#1b1a18; --ink-2:#55524c; --ink-3:#8a857c; --line:#e5e2dc; --bg:#faf9f7; --code:#f0eee9; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--ink);
+    font:15px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:640px; margin:0 auto; padding:64px 24px 80px; }
+  h1 { margin:0 0 6px; font-size:22px; font-weight:650; letter-spacing:-0.01em; }
+  .sub { margin:0 0 32px; color:var(--ink-3); font-size:13px; }
+  p { margin:0 0 14px; color:var(--ink-2); }
+  h2 { margin:32px 0 10px; font-size:14px; font-weight:600; color:var(--ink); }
+  ul { margin:0; padding-left:20px; color:var(--ink-2); }
+  li { margin-bottom:6px; }
+  code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px; background:var(--code); padding:1px 5px; border-radius:4px; }
+  pre { background:var(--code); padding:12px 14px; border-radius:8px; overflow-x:auto; margin:0 0 14px; }
+  pre code { background:none; padding:0; }
+  a { color:var(--ink); text-underline-offset:3px; }
+  hr { border:none; border-top:1px solid var(--line); margin:32px 0; }
+  footer { color:var(--ink-3); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>JackAIStudio</h1>
+  <p class="sub">吴杰克 Jack 的开源项目</p>
+
+  <p>
+    <strong>jackskill</strong> 是一个 Agent Skill。装完之后，在 Agent 里输入 <code>/jack</code>，
+    就能调取跨平台自媒体真实数据、全部视频口播逐字稿，以及四个自研工具的规范。
+  </p>
+
+  <h2>安装</h2>
+  <pre><code>npx -y skills add JackAIStudio/jackskill -g --all</code></pre>
+  <p>装完在 Agent 中输入 <code>/jack</code>；<code>/jack list</code> 看清单。</p>
+
+  <hr>
+
+  <h2>数据与索引</h2>
+  <ul>
+    <li><a href="/jackskill/">数据站</a> —— 自媒体数据与逐字稿的可视化页面</li>
+    <li><a href="/jackskill/llms.txt">jackskill/llms.txt</a> —— 机器可读索引</li>
+    <li><a href="/llms.txt">llms.txt</a> —— 本域名索引</li>
+    <li><a href="/jackskill/data/videos.json">data/videos.json</a> —— 全部指标与逐字稿的单文件版本</li>
+    <li><a href="https://github.com/JackAIStudio/jackskill">github.com/JackAIStudio/jackskill</a> —— 源码</li>
+  </ul>
+
+  <hr>
+
+  <footer>本页由 GitHub Pages 发布。</footer>
+
+</div>
+</body>
+</html>
