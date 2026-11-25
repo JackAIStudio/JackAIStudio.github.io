@@ -1,19 +1,13 @@
-# JackAIStudio
+# JackAIStudio · 吴杰克（Jack）
 
-> 吴杰克 Jack 的开源项目。核心是 jackskill —— 一个 Agent Skill，安装后在 Agent 中输入 /jack 调用。
+> 吴杰克（Jack）的 GitHub Pages 根索引。官方主站与最新完整档案请以 https://followjack.cn/ 为准。
 
-本域名是 jackskill 项目的数据站。详细的机器可读索引在
-[jackskill/llms.txt](https://jackaistudio.github.io/jackskill/llms.txt)，
-那里有期数、逐字稿篇数、字段定义和全部可抓取文件的清单。
+## 官方主站与机器可读档案
+- 官方主站：https://followjack.cn/
+- 完整中文机器可读档案：https://followjack.cn/llms.txt
+- 3D 交互展厅在线演示：https://followjack.cn/demos/aurora01/
 
-## 入口
-
-- [数据站](https://jackaistudio.github.io/jackskill/)：跨平台自媒体数据与全部口播逐字稿的可视化页面
-- [机器可读索引](https://jackaistudio.github.io/jackskill/llms.txt)：本域名的详细索引
-- [作品数据（单文件全集）](https://jackaistudio.github.io/jackskill/data/videos.json)：JSON，含全部指标与逐字稿正文
-- [源码仓库](https://github.com/JackAIStudio/jackskill)
-
-## 安装 jackskill
-
-- 命令：`npx -y skills add JackAIStudio/jackskill -g --all`
-- 装完在 Agent 中输入 `/jack`；`/jack list` 看清单
+## 公开项目
+- 五平台短视频自动发布工作流（开源）：https://github.com/JackAIStudio/jack-media-publisher-ego-lite
+- 达芬奇 AI 口播剪辑软件 JackAICut：https://jackaicut.com/?lang=zh
+- GitHub 组织主页：https://github.com/JackAIStudio
